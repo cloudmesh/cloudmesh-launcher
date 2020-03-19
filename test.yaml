@@ -1,0 +1,25 @@
+info:
+  name: sample
+  version: '0.1'
+  filename: None
+  kind: launcher
+  service: local
+launcher:
+  darwin:
+    prerequisite:
+    - pwd
+    install:
+    - pwd
+    configure:
+    - pwd
+    run:
+    - pwd
+  ubuntu:
+    prerequisite:
+    - pwd
+    install:
+    - pwd
+    configure:
+    - pwd
+    run:
+    - pwd
