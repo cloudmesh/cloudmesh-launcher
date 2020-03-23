@@ -18,13 +18,14 @@ class Launcher(Config):
      launcher:
        darwin:
          prerequisite:
-         - pwd
+         - echo "one.a"
+         - echo "one.b"
          install:
-         - pwd
+         - echo "two"
          configure:
-         - pwd
+         - echo "three"
          run:
-         - pwd
+         - echo "four"
        ubuntu:
          prerequisite:
          - pwd
